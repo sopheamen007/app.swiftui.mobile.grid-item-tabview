@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2699DD902C44CEAC00180D5F /* YoutubeGridItemViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD8F2C44CEAC00180D5F /* YoutubeGridItemViewApp.swift */; };
+		2699DD922C44CEAC00180D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD912C44CEAC00180D5F /* ContentView.swift */; };
+		2699DD942C44CEAE00180D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DD932C44CEAE00180D5F /* Assets.xcassets */; };
+		2699DD972C44CEAE00180D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DD962C44CEAE00180D5F /* Preview Assets.xcassets */; };
+		2699DDA02C44D08D00180D5F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD9F2C44D08D00180D5F /* Colors.swift */; };
+		2699DDA52C44D0D800180D5F /* UserInstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDA42C44D0D800180D5F /* UserInstagramResponse.swift */; };
+		2699DDA72C44D0F400180D5F /* UserInstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDA62C44D0F400180D5F /* UserInstagramData.swift */; };
+		2699DDAA2C44D30100180D5F /* SearchRecentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDA92C44D30100180D5F /* SearchRecentResponse.swift */; };
+		2699DDAC2C44D31200180D5F /* SearchAudioResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDAB2C44D31200180D5F /* SearchAudioResponse.swift */; };
+		2699DDAE2C44D32500180D5F /* SearchTagRespoonse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDAD2C44D32500180D5F /* SearchTagRespoonse.swift */; };
+		2699DDB02C44D35500180D5F /* SearchPlaceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDAF2C44D35500180D5F /* SearchPlaceResponse.swift */; };
+		2699DDB22C44D36700180D5F /* SearchRecentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDB12C44D36700180D5F /* SearchRecentData.swift */; };
+		2699DDB42C44D37A00180D5F /* SearchAudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDB32C44D37A00180D5F /* SearchAudioData.swift */; };
+		2699DDB62C44D38900180D5F /* SearchTagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDB52C44D38900180D5F /* SearchTagData.swift */; };
+		2699DDB82C44D39A00180D5F /* SearchPlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDB72C44D39A00180D5F /* SearchPlaceData.swift */; };
+		2699DDBB2C44D48800180D5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2699DDBA2C44D48800180D5F /* Kingfisher */; };
+		2699DDBE2C44D4AB00180D5F /* GenerateThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDBD2C44D4AB00180D5F /* GenerateThumbnail.swift */; };
+		2699DDC12C44D4E000180D5F /* ThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDC02C44D4E000180D5F /* ThumbnailImageView.swift */; };
+		2699DDC42C44D5E000180D5F /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDC32C44D5E000180D5F /* ProfileImageView.swift */; };
+		2699DDC72C45000700180D5F /* PostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDC62C45000700180D5F /* PostResponse.swift */; };
+		2699DDC92C45001800180D5F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDC82C45001800180D5F /* PostData.swift */; };
+		2699DDCC2C45013400180D5F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDCB2C45013400180D5F /* SearchView.swift */; };
+		2699DDCF2C45055D00180D5F /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDCE2C45055D00180D5F /* SearchFieldView.swift */; };
+		2699DDD22C45058B00180D5F /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDD12C45058B00180D5F /* GridItemView.swift */; };
+		2699DDD52C4505F500180D5F /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDD42C4505F500180D5F /* SearchDetailView.swift */; };
+		2699DDD72C45098C00180D5F /* SearchForYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDD62C45098C00180D5F /* SearchForYouView.swift */; };
+		2699DDD92C4509AC00180D5F /* SearchAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDD82C4509AC00180D5F /* SearchAccountsView.swift */; };
+		2699DDDB2C4509D400180D5F /* SearchAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDDA2C4509D400180D5F /* SearchAudioView.swift */; };
+		2699DDDD2C4509EB00180D5F /* SearchTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDDC2C4509EB00180D5F /* SearchTagsView.swift */; };
+		2699DDDF2C450A0900180D5F /* SearchPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DDDE2C450A0900180D5F /* SearchPlacesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2699DD8C2C44CEAC00180D5F /* YoutubeGridItemView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeGridItemView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699DD8F2C44CEAC00180D5F /* YoutubeGridItemViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeGridItemViewApp.swift; sourceTree = "<group>"; };
+		2699DD912C44CEAC00180D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2699DD932C44CEAE00180D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2699DD962C44CEAE00180D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2699DD9F2C44D08D00180D5F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2699DDA42C44D0D800180D5F /* UserInstagramResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInstagramResponse.swift; sourceTree = "<group>"; };
+		2699DDA62C44D0F400180D5F /* UserInstagramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInstagramData.swift; sourceTree = "<group>"; };
+		2699DDA92C44D30100180D5F /* SearchRecentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecentResponse.swift; sourceTree = "<group>"; };
+		2699DDAB2C44D31200180D5F /* SearchAudioResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAudioResponse.swift; sourceTree = "<group>"; };
+		2699DDAD2C44D32500180D5F /* SearchTagRespoonse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagRespoonse.swift; sourceTree = "<group>"; };
+		2699DDAF2C44D35500180D5F /* SearchPlaceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceResponse.swift; sourceTree = "<group>"; };
+		2699DDB12C44D36700180D5F /* SearchRecentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecentData.swift; sourceTree = "<group>"; };
+		2699DDB32C44D37A00180D5F /* SearchAudioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAudioData.swift; sourceTree = "<group>"; };
+		2699DDB52C44D38900180D5F /* SearchTagData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagData.swift; sourceTree = "<group>"; };
+		2699DDB72C44D39A00180D5F /* SearchPlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceData.swift; sourceTree = "<group>"; };
+		2699DDBD2C44D4AB00180D5F /* GenerateThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateThumbnail.swift; sourceTree = "<group>"; };
+		2699DDC02C44D4E000180D5F /* ThumbnailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailImageView.swift; sourceTree = "<group>"; };
+		2699DDC32C44D5E000180D5F /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		2699DDC62C45000700180D5F /* PostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostResponse.swift; sourceTree = "<group>"; };
+		2699DDC82C45001800180D5F /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		2699DDCB2C45013400180D5F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2699DDCE2C45055D00180D5F /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
+		2699DDD12C45058B00180D5F /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		2699DDD42C4505F500180D5F /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
+		2699DDD62C45098C00180D5F /* SearchForYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForYouView.swift; sourceTree = "<group>"; };
+		2699DDD82C4509AC00180D5F /* SearchAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAccountsView.swift; sourceTree = "<group>"; };
+		2699DDDA2C4509D400180D5F /* SearchAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAudioView.swift; sourceTree = "<group>"; };
+		2699DDDC2C4509EB00180D5F /* SearchTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagsView.swift; sourceTree = "<group>"; };
+		2699DDDE2C450A0900180D5F /* SearchPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlacesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2699DD892C44CEAC00180D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DDBB2C44D48800180D5F /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2699DD832C44CEAC00180D5F = {
+			isa = PBXGroup;
+			children = (
+				2699DD8E2C44CEAC00180D5F /* YoutubeGridItemView */,
+				2699DD8D2C44CEAC00180D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2699DD8D2C44CEAC00180D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD8C2C44CEAC00180D5F /* YoutubeGridItemView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2699DD8E2C44CEAC00180D5F /* YoutubeGridItemView */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDBC2C44D4A400180D5F /* Util */,
+				2699DDA22C44D09E00180D5F /* Components */,
+				2699DDA12C44D09900180D5F /* Models */,
+				2699DD9E2C44D08500180D5F /* Themes */,
+				2699DD9D2C44D06800180D5F /* Pages */,
+				2699DD8F2C44CEAC00180D5F /* YoutubeGridItemViewApp.swift */,
+				2699DD912C44CEAC00180D5F /* ContentView.swift */,
+				2699DD932C44CEAE00180D5F /* Assets.xcassets */,
+				2699DD952C44CEAE00180D5F /* Preview Content */,
+			);
+			path = YoutubeGridItemView;
+			sourceTree = "<group>";
+		};
+		2699DD952C44CEAE00180D5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD962C44CEAE00180D5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2699DD9D2C44D06800180D5F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDD32C4505EB00180D5F /* SearchDetail */,
+				2699DDCA2C45012600180D5F /* Search */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		2699DD9E2C44D08500180D5F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD9F2C44D08D00180D5F /* Colors.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		2699DDA12C44D09900180D5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDC52C44FFFA00180D5F /* PostModel */,
+				2699DDA82C44D2F000180D5F /* SearchModel */,
+				2699DDA32C44D0B700180D5F /* UserInstagramModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2699DDA22C44D09E00180D5F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDD02C45056B00180D5F /* GridItemView */,
+				2699DDCD2C45054F00180D5F /* SearchFieldView */,
+				2699DDC22C44D5D200180D5F /* ProfileImageView */,
+				2699DDBF2C44D4CA00180D5F /* ThumbnailImageView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2699DDA32C44D0B700180D5F /* UserInstagramModel */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDA42C44D0D800180D5F /* UserInstagramResponse.swift */,
+				2699DDA62C44D0F400180D5F /* UserInstagramData.swift */,
+			);
+			path = UserInstagramModel;
+			sourceTree = "<group>";
+		};
+		2699DDA82C44D2F000180D5F /* SearchModel */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDA92C44D30100180D5F /* SearchRecentResponse.swift */,
+				2699DDAB2C44D31200180D5F /* SearchAudioResponse.swift */,
+				2699DDAD2C44D32500180D5F /* SearchTagRespoonse.swift */,
+				2699DDAF2C44D35500180D5F /* SearchPlaceResponse.swift */,
+				2699DDB12C44D36700180D5F /* SearchRecentData.swift */,
+				2699DDB32C44D37A00180D5F /* SearchAudioData.swift */,
+				2699DDB52C44D38900180D5F /* SearchTagData.swift */,
+				2699DDB72C44D39A00180D5F /* SearchPlaceData.swift */,
+			);
+			path = SearchModel;
+			sourceTree = "<group>";
+		};
+		2699DDBC2C44D4A400180D5F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDBD2C44D4AB00180D5F /* GenerateThumbnail.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2699DDBF2C44D4CA00180D5F /* ThumbnailImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDC02C44D4E000180D5F /* ThumbnailImageView.swift */,
+			);
+			path = ThumbnailImageView;
+			sourceTree = "<group>";
+		};
+		2699DDC22C44D5D200180D5F /* ProfileImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDC32C44D5E000180D5F /* ProfileImageView.swift */,
+			);
+			path = ProfileImageView;
+			sourceTree = "<group>";
+		};
+		2699DDC52C44FFFA00180D5F /* PostModel */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDC62C45000700180D5F /* PostResponse.swift */,
+				2699DDC82C45001800180D5F /* PostData.swift */,
+			);
+			path = PostModel;
+			sourceTree = "<group>";
+		};
+		2699DDCA2C45012600180D5F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDCB2C45013400180D5F /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2699DDCD2C45054F00180D5F /* SearchFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDCE2C45055D00180D5F /* SearchFieldView.swift */,
+			);
+			path = SearchFieldView;
+			sourceTree = "<group>";
+		};
+		2699DDD02C45056B00180D5F /* GridItemView */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDD12C45058B00180D5F /* GridItemView.swift */,
+			);
+			path = GridItemView;
+			sourceTree = "<group>";
+		};
+		2699DDD32C4505EB00180D5F /* SearchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2699DDD42C4505F500180D5F /* SearchDetailView.swift */,
+				2699DDD62C45098C00180D5F /* SearchForYouView.swift */,
+				2699DDD82C4509AC00180D5F /* SearchAccountsView.swift */,
+				2699DDDA2C4509D400180D5F /* SearchAudioView.swift */,
+				2699DDDC2C4509EB00180D5F /* SearchTagsView.swift */,
+				2699DDDE2C450A0900180D5F /* SearchPlacesView.swift */,
+			);
+			path = SearchDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2699DD8B2C44CEAC00180D5F /* YoutubeGridItemView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699DD9A2C44CEAE00180D5F /* Build configuration list for PBXNativeTarget "YoutubeGridItemView" */;
+			buildPhases = (
+				2699DD882C44CEAC00180D5F /* Sources */,
+				2699DD892C44CEAC00180D5F /* Frameworks */,
+				2699DD8A2C44CEAC00180D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeGridItemView;
+			packageProductDependencies = (
+				2699DDBA2C44D48800180D5F /* Kingfisher */,
+			);
+			productName = YoutubeGridItemView;
+			productReference = 2699DD8C2C44CEAC00180D5F /* YoutubeGridItemView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2699DD842C44CEAC00180D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2699DD8B2C44CEAC00180D5F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2699DD872C44CEAC00180D5F /* Build configuration list for PBXProject "YoutubeGridItemView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2699DD832C44CEAC00180D5F;
+			packageReferences = (
+				2699DDB92C44D48800180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 2699DD8D2C44CEAC00180D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2699DD8B2C44CEAC00180D5F /* YoutubeGridItemView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2699DD8A2C44CEAC00180D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DD972C44CEAE00180D5F /* Preview Assets.xcassets in Resources */,
+				2699DD942C44CEAE00180D5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2699DD882C44CEAC00180D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DDC42C44D5E000180D5F /* ProfileImageView.swift in Sources */,
+				2699DDCC2C45013400180D5F /* SearchView.swift in Sources */,
+				2699DDC92C45001800180D5F /* PostData.swift in Sources */,
+				2699DD922C44CEAC00180D5F /* ContentView.swift in Sources */,
+				2699DDD92C4509AC00180D5F /* SearchAccountsView.swift in Sources */,
+				2699DDC72C45000700180D5F /* PostResponse.swift in Sources */,
+				2699DDA02C44D08D00180D5F /* Colors.swift in Sources */,
+				2699DDA72C44D0F400180D5F /* UserInstagramData.swift in Sources */,
+				2699DDAE2C44D32500180D5F /* SearchTagRespoonse.swift in Sources */,
+				2699DDDD2C4509EB00180D5F /* SearchTagsView.swift in Sources */,
+				2699DDB02C44D35500180D5F /* SearchPlaceResponse.swift in Sources */,
+				2699DDDB2C4509D400180D5F /* SearchAudioView.swift in Sources */,
+				2699DDCF2C45055D00180D5F /* SearchFieldView.swift in Sources */,
+				2699DDD22C45058B00180D5F /* GridItemView.swift in Sources */,
+				2699DDAA2C44D30100180D5F /* SearchRecentResponse.swift in Sources */,
+				2699DDC12C44D4E000180D5F /* ThumbnailImageView.swift in Sources */,
+				2699DDB82C44D39A00180D5F /* SearchPlaceData.swift in Sources */,
+				2699DDB22C44D36700180D5F /* SearchRecentData.swift in Sources */,
+				2699DDA52C44D0D800180D5F /* UserInstagramResponse.swift in Sources */,
+				2699DDBE2C44D4AB00180D5F /* GenerateThumbnail.swift in Sources */,
+				2699DDD52C4505F500180D5F /* SearchDetailView.swift in Sources */,
+				2699DDAC2C44D31200180D5F /* SearchAudioResponse.swift in Sources */,
+				2699DDB42C44D37A00180D5F /* SearchAudioData.swift in Sources */,
+				2699DDB62C44D38900180D5F /* SearchTagData.swift in Sources */,
+				2699DDDF2C450A0900180D5F /* SearchPlacesView.swift in Sources */,
+				2699DDD72C45098C00180D5F /* SearchForYouView.swift in Sources */,
+				2699DD902C44CEAC00180D5F /* YoutubeGridItemViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2699DD982C44CEAE00180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2699DD992C44CEAE00180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2699DD9B2C44CEAE00180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubeGridItemView/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sopheamen.app.YoutubeGridItemView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2699DD9C2C44CEAE00180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubeGridItemView/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sopheamen.app.YoutubeGridItemView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2699DD872C44CEAC00180D5F /* Build configuration list for PBXProject "YoutubeGridItemView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DD982C44CEAE00180D5F /* Debug */,
+				2699DD992C44CEAE00180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699DD9A2C44CEAE00180D5F /* Build configuration list for PBXNativeTarget "YoutubeGridItemView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DD9B2C44CEAE00180D5F /* Debug */,
+				2699DD9C2C44CEAE00180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2699DDB92C44D48800180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2699DDBA2C44D48800180D5F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2699DDB92C44D48800180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2699DD842C44CEAC00180D5F /* Project object */;
+}
